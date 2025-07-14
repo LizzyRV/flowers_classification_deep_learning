@@ -7699,7 +7699,7 @@ a.anchor-link {
     <span class="k">for</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">labels</span> <span class="ow">in</span> <span class="n">dataloaders</span><span class="p">[</span><span class="s1">'train'</span><span class="p">]:</span>
         <span class="n">steps</span> <span class="o">+=</span> <span class="mi">1</span>
         
-        <span class="c1"># Mover datos al dispositivo (CPU en tu caso)</span>
+       
         <span class="n">inputs</span><span class="p">,</span> <span class="n">labels</span> <span class="o">=</span> <span class="n">inputs</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">),</span> <span class="n">labels</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
         
         <span class="n">optimizer</span><span class="o">.</span><span class="n">zero_grad</span><span class="p">()</span>
