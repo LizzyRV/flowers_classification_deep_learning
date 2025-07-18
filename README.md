@@ -39,7 +39,7 @@ To run this project locally, follow these steps:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/LizzyRV/flowers_classification
+git clone https://github.com/LizzyRV/flowers_classification_deep_learning
 cd flowers_classification
 ```
 
